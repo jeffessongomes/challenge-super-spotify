@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+<h1 align="center">Desafio do Spotify</h1>
+<!-- <img alt="Proffy" src="./github/banner.png"> -->
+<p align="center">
+  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/jeffessongomes/challenge-super-spotify?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jeffessongomes/challenge-super-spotify?style=for-the-badge">
+  <a href="https://github.com/jeffessongomes">
+    <img alt="Feito pelo Jeffesson Gomes" src="https://img.shields.io/badge/feito%20por-Jeffesson Gomes-%237519C1?style=for-the-badge">
+  </a>
+  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/jeffessongomes/challenge-super-spotify?style=for-the-badge"/>
+<p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#computer-sobre">Sobre</a> •
+ <a href="#triangular_ruler-status-do-projeto">Status</a> •
+ <a href="#dvd-executar-o-projeto">Executar</a> •
+ <a href="#hammer-tecnologias">Tecnologias</a> •
+ <a href="#boy-autor">Autor</a> •
+ <a href="#page_facing_up-licença">Licença</a>
+</p>
 
-## Available Scripts
+## :computer: Sobre
 
-In the project directory, you can run:
+O projeto é um desafio que deve ser concluido a partir dessas instruções:
 
-### `yarn start`
+Como bons brasileiros gostamos de uma boa música para curtir nos momentos mais apropriados com as pessoas que gostamos. Esperamos que você também goste de música e do clima agradável do nosso país, pois é a partir disso que sua solução será criada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Precisamos de um sistema que seja possível criar playlists e assossiar uma faixa de temperatura (graus célsios) para ela, assim o sistema irá sempre nos mostrar qual a playlist indicada para o clima atual.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Por Exemplo:
 
-### `yarn test`
+Clima entre 10 e 15 graus tocar 'Minha playlist de rock'
+Clima entre 16 e 22 graus tocar 'Minha playlist de clássicos'
+Lembrando que acima são somente exemplos, o usuário deve conseguir criar quantas playlists ele quiser, ser capaz de adicionar e remover músicas da playlist. Ao acessar o sistema a primeira tela deve informar a melhor playlist baseado na temperatura atual.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+### :hammer: **Tecnologias**
 
-### `yarn build`
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+### :triangular_ruler: **Status do Projeto**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4 align="center"> 
+	👨‍🏫 O desafio está em andamento !
+</h4>
 
-### `yarn eject`
+### :dvd: **Executar o Projeto**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone este repositório
+$ git clone https://github.com/jeffessongomes/challenge-super-spotify
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd challenge-super-spotify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Instale as dependências
+$ npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+```
 
-## Learn More
+### :boy: **Autor**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div align="center">
+<a href="https://github.com/jeffessongomes">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/17955358?s=460&u=ba042b3e183a3e36de57089bb11196ef3985de26&v=4" width="100px;" alt="Foto de Perfil Jeffesson Gomes"/>
+ <br />
+ <sub><b>Jeffesson Gomes</b></sub></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com ❤️ por Jeffesson Gomes 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jeffesson_Gomes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jeffesson-gomes-de-almeida-2b36911aa/)](https://www.linkedin.com/in/jeffesson-gomes-de-almeida-2b36911aa/)
+[![Github Badge](https://img.shields.io/badge/-Jeffesson_Gomes-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jeffessongomes)](https://github.com/jeffessongomes)
+</div>
+
+---
+### :page_facing_up: **Licença**
+
+<br />
+
+Este projeto é licenciado pelo [MIT](./LICENSE).
